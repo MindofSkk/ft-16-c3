@@ -16,15 +16,16 @@ export const Navbar = () => {
     <>
       <nav>
         <Navbarstyled>
-          <NavLink style = {{textDecoration:'none' ,color:'white',
-               fontSize:"20px",paddingTop:"20px"}}
+          <NavLink style = {{textDecoration:'none' ,color:'blue',
+               fontSize:"15px",paddingTop:"20px"}}
            to="Home">Home</NavLink>
-          <NavLink style = {{textDecoration:'none' ,color:'white',
-               fontSize:"20px",paddingTop:"20px"}}
+          <NavLink style = {{textDecoration:'none' ,color:'blue',
+               fontSize:"15px",paddingTop:"20px"}}
           to ="About">About</NavLink>
-          <NavLink style = {{textDecoration:'none' ,color:'white',
-               fontSize:"20px",paddingTop:"20px"}}
+          <NavLink style = {{textDecoration:'none' ,color:'blue',
+               fontSize:"15px",paddingTop:"20px"}}
           to="Book">Book</NavLink>   
+          
 
         </Navbarstyled>
         {/* keep all the NavLinks here */}
