@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import { NavLink } from "react-router-dom";
-import Navbarstyled from "../Book.styled";
+import {Navbarstyled} from "../Book.styled";
 import { AuthContext } from "../context/AuthContext";
 import {About} from "./About"
 import Books from "./Books"
