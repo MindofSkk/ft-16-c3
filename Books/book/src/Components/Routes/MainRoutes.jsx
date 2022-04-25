@@ -15,6 +15,9 @@ const Mainroutes = () => {
     <>
       <Navbar />
       <Routes>
+        <Route path ={"/Home"} element={<Home/>}></Route>
+        <Route path ={"/About"} element={<About/>}></Route>
+        <Route path ={"/Book"} element={<Books/>}></Route>
        {/* keep all the routes here  */}
        {/* /books/* route need to be protected */}
       </Routes>
